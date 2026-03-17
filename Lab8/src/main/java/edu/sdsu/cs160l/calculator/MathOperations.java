@@ -11,10 +11,10 @@ public class MathOperations {
 
     public MathOperations() {
         // TODO change this to use DoubleCalculator
-      //  this.calculator = new DoubleCalculator();
+      this.calculator = new DoubleCalculator();
     }
 
-    public double factorial(int n){
+    public double factorial(double n){
         double factorial = 1;
         for(double i=2;i<=n;i++){
             factorial = calculator.mul(factorial, i);
